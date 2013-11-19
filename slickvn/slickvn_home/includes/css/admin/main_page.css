@@ -1,0 +1,103 @@
+#main_page{
+  width: 85%;
+  height: 100%;
+  float: left;
+  
+  /* background-color: #00620C;*/
+}
+#main_page #content_main_page{
+  margin-top: 100px;;
+  width: 93%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+   
+  /*background: #0066FF;*/
+  
+}
+#main_page #content_main_page .main_page_title{
+ width: 100%;
+ height: auto;
+ 
+/* background: #6c7670;*/
+}
+
+#main_page #content_main_page .main_page_title span{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif, Arial;
+}
+#main_page #content_main_page .line_title{
+  width: 100%;
+  height: 1px;
+  float: left;
+  background:  #d4d4d4;
+}
+
+#main_page #content_main_page .box_out{
+  list-style: none;
+  width: 100%;
+  height: auto;
+}
+#main_page #content_main_page .box_out{
+  list-style: none;
+  width: 100%;
+  height: auto;
+}
+#main_page #content_main_page .box_out .title_box_in{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif, Arial;
+}
+
+#main_page #content_main_page .box_out .box_out_li{
+  float: left;
+  width: 33%;
+  margin-top: 50px;
+}
+
+#main_page #content_main_page .box_out .box_out_li .box_in{
+  width: 100%;
+  list-style: none;
+  margin-top: 5%;
+  height: auto;
+  
+  /*background: #00BDFF;*/
+  
+}
+
+#main_page #content_main_page .box_out .box_out_li .box_in .box_in_li{
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+ /* background: #666;*/
+}
+#main_page #content_main_page .box_out .box_out_li .box_in .box_in_li .icon_dot{
+  width: 10px;;
+  height: 10px;
+  background: url(../../../includes/images/icon/greydot.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px
+ /* background: #666;*/
+}
+#main_page #content_main_page .box_out .box_out_li .box_in .box_in_li a{
+  text-decoration: none;
+ 
+}
+#main_page #content_main_page .box_out .box_out_li .box_in .box_in_li a:hover .sub_title_box_in {
+  color: #0066cc;
+ 
+}
+#main_page #content_main_page .box_out .box_out_li .box_in .box_in_li .sub_title_box_in{
+  color: #00AAE7;
+  font-size: 20px;
+  font-size-adjust: 20px;
+  font-family: sans-serif;
+ 
+}

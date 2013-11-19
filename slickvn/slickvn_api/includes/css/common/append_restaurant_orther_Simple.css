@@ -1,0 +1,248 @@
+
+/*
+|--------------------------------------------------------------------------
+|danh sách nhà hàng mới nhất dang List 
+|--------------------------------------------------------------------------
+|file
+| 
+|
+*/
+/*
+|--------------------------------------------------------------------------
+|BÀI VIẾT HAY  id="articles"
+|--------------------------------------------------------------------------
+|file templates/content/articles.php
+| 
+|
+*/
+#append_Res_Orther_List #Res_Orther_Simple{
+ width: 100%;
+ background: #fff;
+ height: auto;
+ float: left;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_title{
+  width: 100%;
+  height: 56px;
+  background: url(../../../includes/images/icon/banner_blue.png); 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_title .articles_title_custom_center{
+  width: 1024px;
+  height: 56px;
+  margin: 0 auto;
+  background: url(../../../includes/images/icon/banner_blue.png); 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_title .title_left{
+ float:left;
+ background: url(../../../includes/images/icon/bai_viet.png);  
+ width: 250px;
+ height: 56px;
+ margin-left: -10px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list{
+ width: 100%;
+ float: left;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .articles_list_custom_center {
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list{
+  width: 100%;  
+  background:#FFF;
+  float: left;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list:hover{
+
+  background:#eee;
+
+ 
+}
+/*88888888888888*/
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list
+#more_Orther_Restaurant_Simple{
+  width: 100px;
+  height:100px;
+  margin-top: 10px;
+  margin-left: 470px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list
+#more_Orther_Restaurant_Simple .button_more_load_list{
+  width: 100px;
+  height:100px;
+  background: url(../../../includes/images/icon/loading.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list
+#more_Orther_Restaurant_Simple .button_more_noload_list{
+  width: 100px;
+  height:100px;
+  background: url(../../../includes/images/icon/loading.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*88888888888888*/
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .images{
+  width: 200px;
+  float: left;
+  margin-top: 10px;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .images a .detail_image img{
+  width: 190px;
+  height: 139px;
+  margin-left: 3px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  
+ 
+}
+
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .content{
+  width: 600px;  
+  float: left;
+  margin-top: 10px;
+  margin-left: 50px;
+ 
+}
+
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .content .title{
+  color: #e10000;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list:hover .content .title{
+  color: #FFA54E;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment{
+  width: 123px;  
+  float: right;
+  margin-right: 10px;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment .box_comment{
+  width: 114px;
+  height: 133px;
+  margin-left: 6px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #D0D0D0;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment .box_comment .title{
+  width: 100%;
+  text-align: center;
+  float: left;
+  clear: both;
+  height: 70px;
+  font-size:20px;
+  font-weight:bold;
+   margin-top: 15px;
+  
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment .box_comment .title span{
+  color:#98CB00;
+  
+  font-size:30px;
+  font-weight:bold;
+  font-size-adjust: 1;
+  zoom: 2;
+
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment .box_comment .vote{
+  width: 80%;
+  float: left;
+  height:  10px;
+  margin-left: 10px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .comment .box_comment .detail{
+  width: 100%;
+  float: left;
+  text-align: center;
+  height: 48px;
+  margin-top: 5px;
+  font-size: 10px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post{
+  width: 100%;  
+  background:#eee;
+  float: left;
+  height: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+    
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post a{
+ text-decoration: none;
+ color: #269abc;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post a:hover{
+ text-decoration: none;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_more_post{
+  width: 150px;
+  height: 50px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #D0D0D0;
+  margin-top: 20px;
+  margin-left: 420px;
+   color: #269abc;
+   position: absolute;
+ 
+}
+
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_more_post .text{
+   margin-top: 15px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_more_post span{
+    color: #269abc;
+   margin-top: 20px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_more_post:hover{
+   background:#FFF;
+ 
+}
+
+
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_add_post{
+  width: 150px;
+  height: 50px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #D0D0D0;
+  margin-top: 20px;
+  margin-right: 20px;
+  /*margin-left: 420px;*/
+  float: right;
+   color: #269abc;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_add_post .text{
+   margin-top: 15px;
+ 
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_add_post span{
+    color: #269abc;
+   margin-top: 20px;
+}
+#append_Res_Orther_List #Res_Orther_Simple .articles_list .box_list .more_Post .text_add_post:hover{
+   background:#FFF;
+ 
+}
+/*end bai viet hay update*/
+

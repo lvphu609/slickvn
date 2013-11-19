@@ -1,0 +1,94 @@
+#location_page{
+   float: left;
+ width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../../includes/images/icon/slidebg.png');  
+  /*temp*/
+  /*height: 1000px;*/
+}
+#location_page .box_location_page_center{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  
+  /*temp
+  height: 200px;
+  background: #0066FF;*/
+}
+#location_page .box_location_page_center .location_page_detail{
+  margin-top: 10px;
+  width: 1024px;
+  height: auto;
+ float: left;
+ background: url('../../../../includes/images/icon/background_menu_bottom.png'); 
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ -moz-border-top-left-radius: 5px;
+ -moz-border-top-right-radius: 5px;
+  /*temp
+  background: #F1F1F1;*/
+}
+#location_page .box_location_page_center .location_page_detail .logo_home{
+  margin-left: 5px;
+  width: 100px;
+  height: 40px;
+  float: left;
+  background: url('../../../../includes/images/icon/logo_home.png'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  /*temp*/
+  height: 40px;
+  
+}
+#location_page .box_location_page_center .location_page_detail .text_location{
+  
+  width: auto;
+  height: 40px;
+  float: left;
+ 
+  /*temp
+  background: #00BDFF;*/
+  
+}
+#location_page .box_location_page_center .location_page_detail .text_location .icon_grater_than{
+  
+  width: 15px;;
+  height: 10px;
+  float: left;
+ 
+  /*temp*/
+  /*background:  url('../../../../includes/images/icon/grater_than.png') no-repeat;*/
+  background-position: center;
+  margin-top: 10px;
+  color: #FFF;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
+}
+#location_page .box_location_page_center .location_page_detail .text_location span{
+  
+  color: #FFF;
+  font-size: 25px;
+  
+}
+#location_page .box_location_page_center .location_page_detail .text_location .text_detail{
+  
+  width: auto;
+  height: 20px;
+  float: left;
+  margin-top: 5px;
+  /*temp*/
+  
+}
+#location_page .box_location_page_center .line_bottom_location_page{
+  
+ width: 100%;
+ height: 5px;
+ float: left;
+ background: url('../../../../includes/images/icon/banner_red.png'); 
+  
+}
+

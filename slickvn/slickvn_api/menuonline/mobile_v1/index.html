@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Template Mobile</title>
+<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.1.css">
+<link rel="stylesheet" type="text/css" href="css/layout.css">
+<script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+<script type="text/javascript" src="js/jquery.mobile-1.3.1.js"></script>
+<script type="text/javascript" src="js/layout.js"></script>
+</head>
+
+<body>
+	<div data-role="page">
+    	<div data-role="panel" id="panel_gio_hang" data-display="overlay" data-theme="a">
+        	<h1>Giỏ Hàng</h1>
+            <ul data-role="listview">
+                <li>
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        <tr height="35">
+                            <td rowspan="2"><img src="img/cua.jpg"></td>
+                            <td valign="bottom">Cua rang mo</td>
+                            <td rowspan="2">x 4</td>
+                        </tr>
+                        <tr height="35">
+                            <td valign="top">100.000d</td>
+                        </tr>
+                        <tr>
+                        	<td colspan="3" align="center">
+                            	<div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="minus" data-theme="c">Giảm</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="plus" data-theme="c">Thêm</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="delete" data-theme="c">Xóa</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        <tr height="35">
+                            <td rowspan="2"><img src="img/cua.jpg"></td>
+                            <td valign="bottom">Cua rang mo</td>
+                            <td rowspan="2">x 4</td>
+                        </tr>
+                        <tr height="35">
+                            <td valign="top">100.000d</td>
+                        </tr>
+                        <tr>
+                        	<td colspan="3" align="center">
+                            	<div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="minus" data-theme="c">Add</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="plus" data-theme="c">Delete</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="delete" data-theme="c">More</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        <tr height="35">
+                            <td rowspan="2"><img src="img/cua.jpg"></td>
+                            <td valign="bottom">Cua rang mo</td>
+                            <td rowspan="2">x 4</td>
+                        </tr>
+                        <tr height="35">
+                            <td valign="top">100.000d</td>
+                        </tr>
+                        <tr>
+                        	<td colspan="3" align="center">
+                            	<div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="minus" data-theme="c">Add</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="plus" data-theme="c">Delete</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="delete" data-theme="c">More</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li>
+                	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        <tr height="35">
+                            <td rowspan="2"><img src="img/cua.jpg"></td>
+                            <td valign="bottom">Cua rang mo</td>
+                            <td rowspan="2">x 4</td>
+                        </tr>
+                        <tr height="35">
+                            <td valign="top">100.000d</td>
+                        </tr>
+                        <tr>
+                        	<td colspan="3" align="center">
+                            	<div data-role="controlgroup" data-type="horizontal" data-mini="true">
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="minus" data-theme="c">Add</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="plus" data-theme="c">Delete</a>
+                                    <a href="#" data-role="button" data-iconpos="notext" data-icon="delete" data-theme="c">More</a>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </li>
+                <li style="text-align:center" data-theme="a">
+                	<div data-role="controlgroup" data-type="horizontal">
+                    	<a href="#panel_gio_hang" data-rel="close" data-role="button" data-corners="false" data-inline="true">Đóng</a>
+                		<a href="#" data-role="button" data-corners="false" data-inline="true">Gọi món</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div data-role="panel" id="panel_chuc_nang" data-display="overlay" data-position="right">
+        	<h1>Chức Năng</h1>
+        </div>
+    	<div data-role="header" data-position="fixed">
+        	<h1 data-inline="true">Nhà hàng ABC</h1>
+            <input type="search" value="" data-inline="true" data-clear-btn="true" data-placeholder="true" placeholder="Search">
+            <div data-role="navbar" data-iconpos="left">
+                <ul>
+                    <li><a href="#panel_gio_hang" data-icon="star" data-theme="b">Giỏ hàng</a></li>
+                    <li><a href="#" data-theme="b" data-icon="home" class="ui-btn-active">Bàn 10</a></li>
+                    <li><a href="#panel_chuc_nang" data-icon="grid" data-theme="b">Chức năng</a></li>
+                </ul>
+            </div>
+        </div>
+        <div data-role="content">
+            <div data-role="collapsible" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-inset="false" data-theme="b" data-collapsed="false">
+            	<h4>Thức ăn</h4>
+                <ul data-role="listview">
+                    <li>
+                    	<table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li><table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table></li>
+                    <li><table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table></li>
+                    <li><table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table></li>
+                    <li><table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table></li>
+                    <li><table width="100%" border="0" cellpadding="0" cellspacing="0" class="item">
+                        	<tr height="35">
+                            	<td rowspan="2"><img src="img/cua.jpg"></td>
+                                <td valign="bottom">Cua rang mo</td>
+                                <td rowspan="2"><button data-role="button" data-mini="true">Chon</button></td>
+                            </tr>
+                            <tr height="35">
+                            	<td valign="top">100.000d</td>
+                            </tr>
+                        </table></li>
+                </ul>
+            </div>
+            <div data-role="collapsible" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" data-inset="false" data-theme="b">
+            	<h4>Thức uống</h4>
+                hello
+            </div>
+        </div>
+        <div data-role="footer">
+    		<h1>Liên hệ</h1>
+    	</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1092 @@
+#tabs_detail_restaurant{
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../../includes/images/icon/slidebg.png'); 
+  
+  
+  /*temp*/
+}
+#tabs_detail_restaurant .tabs_align_center{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+ 
+  
+  /*temp
+  height: 200px;
+  background: #0066FF;*/
+}
+/*TITLE AND MENU*/
+#tabs_detail_restaurant .tabs_align_center .tabs_title{
+  width: 1024px;
+  height: auto;
+  float: left;
+  /*temp
+  height: 30px;
+  background: #FFF;*/
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu{
+ width: 100%;
+ height: 35px;
+ list-style: none;
+ float: left;
+ background: url('../../../../includes/images/icon/background_menu_bottom.png');
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu a{
+ text-decoration: none;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li{
+ width: auto;
+ height: 30px;
+ float: left;
+ text-align: center;
+ margin-left: 5px;
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ margin-top: 5px;
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li:hover{
+   background: url('../../../../includes/images/icon/banner_red.png'); 
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li:hover span{
+ color: #FFF;
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li span{
+ width: auto;
+ height: 30px;
+ float: left;
+ font-size: 15px;
+ margin-top: 5px;
+ margin-left: 5px;
+ margin-right: 5px;
+ color: #FFF;
+}
+/*#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li i{
+ background: url('../../../../includes/images/icon/flac.png') no-repeat;
+width: 9px;
+height: 25px;
+float: left;
+margin: 0 9px;
+margin-top: 5px;
+}*/
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li.active span{
+ color: #FFF;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_title #ul_menu li.active{
+ background: url('../../../../includes/images/icon/banner_red.png');
+}
+/*END TITLE AND MENU*/
+
+
+
+#tabs_detail_restaurant .tabs_align_center .line_tabs{
+  width: 1024px;
+  height: auto;
+  float: left;
+/*  background: #FFF;*/
+/*   margin-bottom: 20px;*/
+  /*temp*/
+  height: 5px;
+/*  background: #FFF;*/
+ background: url('../../../../includes/images/icon/banner_red.png');
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left{
+  width: 754px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+  /*temp
+  height: 500px;
+  background: #FFF;*/
+}
+/*--------------------------------------------tabs_introduce_restaurant-------------*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #introduce_restaurant{
+  width: 734px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   font-size: 12px;
+  /*temp
+  height: 500px;
+  background: #FFF;*/
+  
+}
+
+/*--------------------------------------------tabs_info_restaurant-------------*/
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant{
+  width: 734px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+   margin-top: 20px;
+  
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant {
+ width: 700px;
+ margin-left: 16px;
+ float: left;
+ height: auto;
+ 
+ /*temp
+ background: #DDD;
+ height: 500px;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant .line_top {
+ width: 700px;
+ float: left;
+ height: 20px;
+ background: url('../../../../includes/images/icon/banner_green.png');
+ border-top-left-radius: 5px;
+ border-top-right-radius: 5px;
+ -moz-border-top-left-radius: 5px;
+ -moz-border-top-right-radius: 5px;
+ 
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.line_bottom {
+ width: 700px;
+ float: left;
+ height: auto;
+ background: url('../../../../includes/images/icon/banner_green.png');
+ margin-top: 5px;
+ border-bottom-left-radius: 5px;
+ border-bottom-right-radius: 5px;
+ -moz-border-bottom-left-radius: 5px;
+ -moz-border-bottom-right-radius: 5px;
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.line_bottom .detail_line_bottom {
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant
+{
+ width: 700px;
+ float: left;
+ height: auto;
+ list-style: none;
+ margin-top: 5px;
+
+ /*temp
+ background: #00BDFF;
+ height: 500px;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li
+{
+ width: 700px;
+ float: left;
+ height: auto;
+ margin-top: 5px;
+ 
+ /*temp
+ height: 40px;
+ background: #DDD;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li:hover
+{
+  background: #eee;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li .info_left
+{
+ width: 200px;
+ float: left;
+ height: auto;
+ 
+ /*temp
+ height: 40px;
+ background: #0066FF;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li .info_left span
+{
+ margin-left: 10px;
+ color: #666666;
+ font-size: 13px;
+}
+
+
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li .info_right
+{
+ width: 500px;
+ float: left;
+ height: auto;
+ 
+ /*temp
+ height: 40px;
+ background: #005702;*/
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #info_restaurant .box_detail_info_restaurant 
+.ul_detail_info_restaurant li .info_right span
+{
+ color: #666666;
+ font-size: 13px;
+  
+}
+
+
+
+
+
+/*--------------------------------------------tabs_tiện ích-------------*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant{
+  width: 734px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+   margin-top: 20px;
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich{
+  width: 734px;
+  height: auto;
+  float: left;
+  background: #FFF;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border:1px solid #DDD;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  /*temp
+  background: #666666;
+  height: 100px;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.top_title
+{
+  width: 734px;
+  height: 40px;
+  float: left;
+  background: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+  /*temp
+  background: #666666;
+  height: 100px;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.top_title span
+{
+  height: 20px;
+  font-size: 16px;
+  color: #666666;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.top_title span .span_center
+{
+  margin-top: 10px;
+  margin-left: 10px
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich
+{
+  width: 734px;
+  height: auto;
+  float: left;
+  list-style: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  -moz-border-bottom-right-radius: 5px;
+  
+  /*temp
+  background: #00BDFF;
+  height: 100px;*/
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li
+{
+ float: left;
+ width: 240px;
+ margin-left: 4px;
+ height: 40px;
+ 
+ /*temp
+ background: #00BDFF;*/
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .image_status
+{
+ float: left;
+ width:  40px;
+ display: inline-block;
+ height: 40px;
+ 
+ /*temp
+ background: #00BDFF;*/
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li span.content
+{
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  margin-top: 13px;
+  font-size: 14px;
+  color: #666666;
+ 
+}
+
+
+
+
+
+
+/*---icon_status*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_atm
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -715px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_atm_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -715px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_thetindung
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -811px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_thetindung_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -811px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_tienmat
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -666px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_tienmat_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -666px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_Dedit
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -764px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_Dedit_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -764px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_amthanh_maychieu
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -2px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_amthanh_maychieu_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -2px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_baidauxehoi
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -140px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_baidauxehoi_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -140px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_baidauxemay
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -284px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_baidauxemay_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -284px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_ghengoitreem
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -48px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_ghengoitreem_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -48px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_karaoke
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -189px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_karaoke_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -189px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_khuvuichoi
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -331px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_khuvuichoi_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -331px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_maylanh
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -380px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_maylanh_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -380px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_phongvip
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -95px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_phongvip_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -95px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_wifi
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -237px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_wifi_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -237px;}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_dattiectainha
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1339px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_dattiectainha_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1339px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_giaohangtannoi
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1292px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_giaohangtannoi_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1292px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_mangve
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1243px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_mangve_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1243px;}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_antainhahang
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1099px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_antainhahang_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1099px;}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhbancong
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1147px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhbancong_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1147px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhbien
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -859px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhbien_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -859px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsanthuong
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -957px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsanthuong_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -957px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsong
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1052px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsong_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1052px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhngoaitroi
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1004px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhngoaitroi_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1004px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhviahe
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -1099px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhviahe_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -1099px;}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsanvuon
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat 0px -908px;}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #utilities_restaurant .box_tienich
+.detail_box_tienich li .icon_canhsanvuon_xam
+{background: url(../../../../includes/images/icon/icon_status_detail_restaurant/icon_tien_ich.png) no-repeat -43px -908px;}
+
+
+/*end icon_status*/
+
+
+
+/*--------------------------------------------tabs_bình luận-------------*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant{
+  width: 734px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+   margin-top: 20px;
+  
+}
+    
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment{
+  width: 734px;
+  height: auto;
+  float: left;
+  background: #FFF;
+  margin-bottom: 10px;
+  
+  /*temp
+  background: #666666;
+  height: 100px;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment .your_avatar{
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment .your_avatar
+img
+{
+  box-shadow: 0 0 2px #000;
+  width: 50px;
+  height: 50px;
+  -moz-box-shadow: 0 0 2px #000;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment
+{
+  
+  width: 680px;
+  margin-left: 4px;
+  float: left;
+  height: auto;
+  
+  
+   /*temp
+  background: #eee;
+  height: 200px;*/
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form
+{
+ display: block;
+ margin-top: 0em;
+ float: left;
+ width: 680px;
+ height: auto;
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top
+{
+  width: 680px;
+  float: left;
+  border: 1px solid #ccc;
+   resize:none;
+   margin-left: 2px;
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top .list_vote_rating
+{
+  
+  float: left;
+  width: 680px;
+  height: 20px;
+  background: #eee;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top ul
+{
+ 
+    float: left;
+  width: 680px;
+  height: 20px;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top ul li
+{
+  float: left;
+  margin-left: 5px;
+  width: 165px;
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top ul li .left
+{
+  float: left;
+  padding: 2px;
+  color: #999999;
+  font-size: 12px;
+  width: 75px;
+  height: 20px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top ul li .right
+{
+  float: left;
+  width: 80px;
+  height: 20px;
+  
+  /*temp
+  background:#999999; */
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_top .txt_comment
+{
+  width: 680px;;
+  height: 80px;
+  background: #fff;
+  border: 0px solid;
+  font-size: 12px;
+  font-style: oblique;
+  box-sizing: border-box;
+  color: #000;
+  margin: 0;
+  outline: 0;
+  padding: 5px 0 6px 8px;
+  position: relative;
+  -webkit-appearance: none;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_bottom
+{
+  width: 680px;
+  height: 40px;
+  float: left;
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_bottom .btn_comment
+{
+ float: right;
+ margin-top: 10px;
+ margin-right: 20px;
+ width: 100px;
+ height: 30px;
+  color: #FFF;
+ background-image: -o-linear-gradient(bottom, #B31919 0%, #FF2E2E 100%);
+background-image: -moz-linear-gradient(bottom, #B31919 0%, #FF2E2E 100%);
+background-image: -webkit-linear-gradient(bottom, #B31919 0%, #FF2E2E 100%);
+background-image: -ms-linear-gradient(bottom, #B31919 0%, #FF2E2E 100%);
+background-image: linear-gradient(to bottom, #B31919 0%, #FF2E2E 100%);
+border: 0px solid;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ font-weight: bold;
+ font-size: 15px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment form .box_comment_bottom .btn_comment:active
+{
+  background-image: -o-linear-gradient(bottom, #FA2D2D 0%, #910707 100%);
+background-image: -moz-linear-gradient(bottom, #FA2D2D 0%, #910707 100%);
+background-image: -webkit-linear-gradient(bottom, #FA2D2D 0%, #910707 100%);
+background-image: -ms-linear-gradient(bottom, #FA2D2D 0%, #910707 100%);
+background-image: linear-gradient(to bottom, #FA2D2D 0%, #910707 100%);
+ 
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_your_comment 
+.box_form_comment .line_comment
+{
+  width: 680px;
+  float: left;
+  height: 1px;
+  background: #DDD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+  
+}
+
+/*danh sach binh luan*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .center_box_show_list_comment
+.box_show_list_comment{
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment{
+  width: 734px;
+  height: auto;
+  float: left;
+  background: #FFF;
+  margin-bottom: 10px;
+  
+  /*temp
+  background: #666666;
+  height: 100px;*/
+  
+}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+.avatar{
+  width: 50px;
+  height: auto;
+  float: left;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+.avatar img
+{
+  box-shadow: 0 0 2px #000;
+  width: 50px;
+  height: 50px;
+  -moz-box-shadow: 0 0 2px #000;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+.avatar span
+{
+  color: #000;
+  font-size: 11px;
+  font-family: sans-serif;
+  
+}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+.list_vote_rating
+{
+  
+  float: left;
+  width: 670px;
+  height: 20px;
+  background: #eee;
+  margin-left: 10px;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment ul
+{
+ 
+    float: left;
+  width: 680px;
+  height: 20px;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li
+{
+  float: left;
+  margin-left: 5px;
+  width: 160px;
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li .left
+{
+  float: left;
+  padding: 2px;
+  color: #999999;
+  font-size: 12px;
+  width: 75px;
+  height: 20px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li .right
+{
+  float: left;
+  width: 80px;
+  height: 20px;
+  
+}
+/*aaaa*/
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li .right .rating{
+  width: auto;
+  height: 15px;
+  float: left;
+  margin-top: 3px;
+  
+  /*temp
+   width: 100px;;
+  background: #DDD;*/
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li .right .rating .star_active{
+  float: left;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background: url(../../../../includes/images/icon/ratestar_selected.png);
+  background-size: 12px;
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+ul li .right .rating .star_no_active{
+  float: left;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background:url(../../../../includes/images/icon/redbutton_icon_1.png);
+  background-size: 20px 20px;;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .full_name_user{
+  width: 670px;
+  text-align: left;
+  margin-left: 10px;
+  height: 20px;
+  float: left;
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .full_name_user span{
+  color: #00620C;
+  font-size: 15px;
+  font-weight: bold;
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .content_comment {
+ width: 670px;
+ margin-left: 60px;
+ float: left;
+ margin-top: -35px;
+ /*temp
+ height: 100px;
+ background: #eee;*/
+  
+ 
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .content_comment p{
+ color: #000;
+ font-size: 13px;
+ font-family: arial, sans-serif;
+  
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .like_share_reply{
+  width: 670px;
+  margin-left: 60px;
+  float: left;
+  margin-top:10px;
+  height: 20px;
+   /*temp
+  background: #999999;*/
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .like_share_reply .box_btn_submit{
+  width: 670px;
+  float: left;
+  height: 20px;
+  
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant 
+.box_show_list_comment .like_share_reply .box_btn_submit li{
+  width: 100px;
+  height: 20px;
+  float: left;
+  margin-left: 5px;
+ 
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_left #comment_restaurant .box_show_list_comment
+.line_box_list_comment{
+  width: 734px;
+  height: 1px;
+  float: left;
+  background: #DDD;
+/*  margin-bottom: 10px;*/
+  margin-top: 10px;
+ 
+  
+}
+
+
+
+/*====================================================TABS RIGHT===============*/
+#tabs_detail_restaurant .tabs_align_center .tabs_right{
+  width:260px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   
+   
+  /*temp
+  height: 500px;
+  background: #FFF;*/
+}
+
+
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant{
+  width:250px;
+  height: auto;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+   
+   
+  /*temp
+  height: 500px;
+  background: #eee;*/
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant{
+  width:250px;
+  height: auto;
+  float: left;
+  list-style: none;
+   
+  /*temp
+  height: 500px;
+  background: #eee;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li{
+  width:250px;
+  height: auto;
+  float: left;
+  background: #eee;
+  margin-bottom: 5px;
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .left{
+  width:50px;
+  height: auto;
+  float: left;
+/*  background: #00620C;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .left .avatar_restaurant{
+  width:50px;
+  height: 50px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
+  
+/* background: #00620C;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .left .avatar_restaurant img{
+  width:50px;
+  height: 50px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  
+/* background: #00620C;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .right{
+  width:200px;
+  height: auto;
+  float: left;
+/*  background: #00620C;*/
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .right .name_restaurant{
+  width:190px;
+  height: auto;
+  float: left;
+  text-align: left;
+  margin-left: 5px;
+/*  background: #00620C;*/
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .right .name_restaurant span{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 14px;
+  overflow: hidden;
+  color: rgb(113, 113, 113);
+/*  background: #00620C;*/
+  
+}
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .right .address_restaurant{
+  width:190px;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin-top: 3px;
+  margin-left: 5px;
+/*  background: #00620C;*/
+  
+}
+
+#tabs_detail_restaurant .tabs_align_center .tabs_right .similar_restaurant
+.show_list_restaurant li .right .address_restaurant span{
+  font-size: 11px;
+  float: left;
+  text-align: left;
+  color: #000;
+  
+}

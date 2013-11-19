@@ -1,0 +1,465 @@
+
+#carousel_detail{
+   float: left;
+ width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../../includes/images/icon/slidebg.png'); 
+  
+  /*temp*/
+}
+#carousel_detail .box_align_center{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+ 
+  
+  /*temp
+  height: 200px;
+  background: #0066FF;*/
+}
+/*left==================================================*/
+#carousel_detail .box_align_center .box_detail_left{
+  width: 754px;
+  height: auto;
+  float: left;
+  background: #FFF;
+   margin-bottom: 10px;
+  /*temp
+  height: 500px;
+/*  background: #0066FF;*/
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment{
+  width: 754px;
+  height: 15px;
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  
+  /*temp
+  background: #19B3B3;*/
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment .div_rating{
+  width: auto;
+  height: 15px;
+  float: left;
+  margin-left: 5px;
+  
+  /*temp
+   width: 100px;;
+  background: #DDD;*/
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment .div_rating .rating{
+  width: auto;
+  height: 15px;
+  float: left;
+  
+  /*temp
+   width: 100px;;
+  background: #DDD;*/
+}
+
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.div_rating .rating .star_active{
+  float: left;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background: url(../../../../includes/images/icon/ratestar_selected.png);
+  background-size: 15px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.div_rating .rating .star_no_active{
+  float: left;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background:url(../../../../includes/images/icon/redbutton_icon_1.png);
+  background-size: 30px 31px;;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.text_rating{
+  float: left;
+  width: auto;
+  height: 12px;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.text_rating span{
+  font: 12px arial;
+  color: #000;
+  line-height: 1.231;
+}
+
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment{
+  float: right;
+  width: auto;
+  height: 15px;
+  margin-right: 5px;
+  /*temp
+  width: 100px;
+  background: #19B3B3;*/
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .fomat_like_comment{
+  width: auto; float: left; height: 15px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .fomat_like_comment span{
+ font-size: 11px; margin-right: 10px; color: #000;
+  
+}
+
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .image_bg_comment{
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background: url(../../../../includes/images/icon/icon_comment.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 15px 15px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .image_bg_comment{
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background: url(../../../../includes/images/icon/icon_comment.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .image_bg_comment:hover{
+  background-size: 14px 14px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .image_bg_like{
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background: url(../../../../includes/images/icon/icon_thumbsup.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 13px 13px;
+}
+#carousel_detail .box_align_center .box_detail_left .banner_vote_comment 
+.banner_like_comment .image_bg_like:hover{
+  background-size: 14px 14px;
+}
+#carousel_detail .box_align_center .box_detail_left .line_banner_vote_comment{
+  width: 754px;
+  height: 1px;;
+  float: left;
+  background: #DDD;
+  
+  
+}
+#carousel_detail .box_align_center .box_detail_left .gallery_slide{
+  width: 444px;
+  height: auto;;
+  float: left;
+  margin-top: 10px;
+  /*temp*/
+  height: 336px;
+/*  background: #DDD;*/
+  margin-left: 10px;
+  margin-bottom: 10px;
+  
+}
+
+#carousel_detail .box_align_center .box_detail_left .title_restaurant_and_introduce{
+  width: 290px;
+  height: auto;;
+  float: left;
+  margin-left: 10px;
+  /*temp
+  height: 100px;
+  background: #DDD;*/
+  
+  
+}
+#carousel_detail .box_align_center .box_detail_left .title_restaurant_and_introduce
+.detail_name_restaurant
+{
+  width: 290px;
+  height: auto;;
+  float: left;
+  text-align: center;
+}
+#carousel_detail .box_align_center .box_detail_left .title_restaurant_and_introduce
+.detail_name_restaurant .text_detail_name_restaurant 
+{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
+#carousel_detail .box_align_center .box_detail_left .title_restaurant_and_introduce
+.detail_introduce_restaurant
+{
+  width: 290px;
+  height: auto;;
+  float: left;
+  text-align: left;
+  margin-top: 5px;
+}
+#carousel_detail .box_align_center .box_detail_left .title_restaurant_and_introduce
+.detail_introduce_restaurant .text_detail_introduce_restaurant 
+{
+  font-size: 12px;;
+  color: #000;
+  line-height: 20px;
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+
+}
+
+
+
+
+
+/*right===============================================================================*/
+#carousel_detail .box_align_center .box_detail_right{
+  width: 260px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+  background: #FFF;
+  /*temp*/
+  height: 382px;
+  
+}
+
+#carousel_detail .box_align_center .box_detail_right .point_restaurant{
+  width: 90px;
+  height: 120px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #DDD;
+  
+  
+  /*temp
+  background:#00620C; */
+  
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .text_point{
+  width: 70px;
+  height: 80px;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+/*  border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid #DDD;*/
+  text-align: center;
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .text_point .text_align{
+ margin-top: 10px;
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .text_point span{
+  color: #4D7D12;
+  font-size: 50px;
+  font-weight: bold;
+  
+  
+  
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .lable_point{
+  width: 90px;
+  height: 30px;
+  float: left;
+  background: url(../../../../includes/images/icon/banner_green.png);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  text-align: center;
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .lable_point span{
+  width: 50px;
+  height: 20px;
+  margin-top: 10px;
+  color: #FFF;
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+#carousel_detail .box_align_center .box_detail_right .point_restaurant .lable_point span .text_align{
+  
+  margin-top: 5px;
+
+  
+}
+#carousel_detail .box_align_center .box_detail_right .comment_view{
+  width: 140px;
+  margin-top: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 30px;
+  text-align: left;
+  
+  /*temp
+  background: #4D7D12;*/
+
+  
+}
+#carousel_detail .box_align_center .box_detail_right .comment_view span{
+ font-size: 12px;
+}
+#carousel_detail .box_align_center .box_detail_right .comment_view b{
+ font-size: 12px;
+}
+
+#carousel_detail .box_align_center .box_detail_right .vote{
+  width: 140px;
+  margin-left: 10px;
+  float: left;
+  height: 80px;
+  text-align: left;
+  list-style: none;
+  margin-top: 5px;
+  /*temp
+  background: #4D7D12;*/
+}
+#carousel_detail .box_align_center .box_detail_right .vote li{
+  float: left;
+  width: 140px;
+  height: 20px;
+  margin-top: 3px;
+  /*temp
+  background: #0066FF;*/
+}
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_left{
+  float: left;
+  width: 65px;
+  height: 20px;
+  
+  /*temp
+  background: #00AAE7;*/
+}
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_left span{
+  font-size: 10px;
+  color: #000;
+  
+}
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_right{
+  float: left;
+  width: 75px;
+  height: 20px;
+  /*temp
+  background: #4D7D12;*/
+}
+ 
+
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_right .rating{
+  width: auto;
+  height: 15px;
+  float: left;
+  
+  /*temp
+   width: 100px;;
+  background: #DDD;*/
+}
+
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_right .rating .star_active{
+  float: left;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background: url(../../../../includes/images/icon/ratestar_selected.png);
+  background-size: 15px;
+}
+#carousel_detail .box_align_center .box_detail_right .vote li .text_vote_right .rating .star_no_active{
+  float: left;
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background:url(../../../../includes/images/icon/redbutton_icon_1.png);
+  background-size: 30px 31px;;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#carousel_detail .box_align_center .box_detail_right .box_button_submit{
+  width: 230px;
+  margin-left: 20px;
+  height: auto;
+  float: left;
+  list-style: none;
+  margin-top: 20px;
+  
+  /*temp
+  background: #4D7D12;
+  height: 100px;*/
+  
+  
+}
+#carousel_detail .box_align_center .box_detail_right .box_button_submit li{
+  
+  width: 105px;
+  margin-right: 10px;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+background-image: -o-linear-gradient(bottom, #A7CC04 0%, #698503 100%);
+background-image: -moz-linear-gradient(bottom, #A7CC04 0%, #698503 100%);
+background-image: -webkit-linear-gradient(bottom, #A7CC04 0%, #698503 100%);
+background-image: -ms-linear-gradient(bottom, #A7CC04 0%, #698503 100%);
+background-image: linear-gradient(to bottom, #A7CC04 0%, #698503 100%);
+  border-radius: 5px;
+ -moz-border-radius: 5px;
+ text-align: center;
+  /*temp
+  background: #00620C;*/
+  
+}
+#carousel_detail .box_align_center .box_detail_right .box_button_submit li:hover{
+  background-image: -o-linear-gradient(bottom, #698503 0%, #A7CC04 100%);
+  background-image: -moz-linear-gradient(bottom, #698503 0%, #A7CC04 100%);
+  background-image: -webkit-linear-gradient(bottom, #698503 0%, #A7CC04 100%);
+  background-image: -ms-linear-gradient(bottom, #698503 0%, #A7CC04 100%);
+  background-image: linear-gradient(to bottom, #698503 0%, #A7CC04 100%);
+ 
+}
+#carousel_detail .box_align_center .box_detail_right .box_button_submit li
+span
+{
+ color: #FFF;
+ height: 15px;
+ font-size: 17;
+ font-weight: bold;
+ 
+}
+#carousel_detail .box_align_center .box_detail_right .box_button_submit li
+span .center_text
+{
+ margin-top: 5px;
+ 
+}

@@ -1,0 +1,390 @@
+/*
+|--------------------------------------------------------------------------
+| FORM SIGN UP   id="form_sign_up"
+|--------------------------------------------------------------------------
+|file templates/content/form_sign_up.php
+|      templates/content/form_log_in.php
+|
+*/
+#form_sign_up{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png');  
+  
+}
+#form_sign_up .box_sign_up{
+  width: 1024px;
+  height: 900px;
+  margin: 0 auto;
+ /* background: url('../../../includes/images/icon/slidebg.png'); */
+  /*background: #FFF;*/
+}
+
+#form_sign_up .box_sign_up .box{
+  width: 100%;
+  height: 450px;
+  margin-top: 30px;
+  float: left;
+  
+  /*background: #4cae4c;*/
+  
+}
+/*box_left*/
+#form_sign_up .box_sign_up .box .box_left{
+  width: 610px;
+  float: left;
+  height: auto;
+  
+  height: 800px;
+ /* background: #D0D0D0;*/
+}
+
+#form_sign_up .box_sign_up .box .box_left .title{
+  width: 570px;
+  float: left;  
+  height: 56px;
+  
+  /*background: #eb9316;*/
+}
+#form_sign_up .box_sign_up .box .box_left .title .title_left{
+  width: 240px;
+  float: left;
+  height: 56px;
+  background: #FFF;
+  border-top-left-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+ text-align: center; 
+}
+#form_sign_up .box_sign_up .box .box_left .title .title_left .text {
+  margin-top: 10px;
+  margin-left: -10px;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .title .title_left .text span{
+  font-size: 30px;
+  color: #0134c5;
+  font-weight: bold;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .title .title_right{
+  width: 330px;
+  float: left;
+  height: 56px;
+  /*background: #4cae4c;*/
+}
+#form_sign_up .box_sign_up .box .box_left .title .title_right .image{
+  width: 55px;
+  float: left;
+  height: 60px;
+  background: url('../../../includes/images/icon/bg_left_form_sign_up_title_right.png');
+}
+
+#form_sign_up .box_sign_up .box .box_left .sub_title_1{
+  width: 570px;;
+  float: left;
+  height: 40px;
+  background: #FFF;
+}
+#form_sign_up .box_sign_up .box .box_left .line {
+  width: 570px;
+  height: 5px;
+  background: url('../../../includes/images/icon/bg_form_sign_up.png');
+  float: left;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .sub_title_2{
+  width: 610px;
+  float: left;
+  height: 20px;
+
+}
+#form_sign_up .box_sign_up .box .box_left .sub_title_2 .left{
+  width: 570px;
+  float: left;
+  height: 20px;
+  background: #FFF;  
+}
+#form_sign_up .box_sign_up .box .box_left .sub_title_2 .right{
+  width: 39px;
+  float: left;
+  height: 20px;
+  background: url('../../../includes/images/icon/image_top_right_sign_up.png'); 
+}
+
+#form_sign_up .box_sign_up .box .box_left .box_left_content {
+  width: 610px;
+  height: auto;
+  background: url('../../../includes/images/icon/bg_form_sign_up.png');
+  float: left;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content .checkbox {
+  margin-left: 30px;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content .agree {
+  margin-left: 40px;
+  font-size: 15px;
+  color: #FFF;
+  font-size-adjust: 0.51;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul {
+  width: 500px;
+  margin-top: 30px;
+  margin-left: 30px;
+  list-style: none;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul li{
+  width: 500px;
+  margin-top: 10px; 
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul li span{
+  font-size: 15px;
+  color: #FFF;
+  font-size-adjust: 0.51;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul li input{
+  width: 400px;
+  border-radius: 5px;
+  outline: 0;
+  color: #7e7e7e;
+  height: 30px;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul li select{
+  width: 200px;
+  border-radius: 5px;
+  outline: 0;
+  color: #7e7e7e;
+  height: 30px;
+}
+#form_sign_up .box_sign_up .box .box_left .box_left_content ul li checkbox{
+  width: 200px;
+  height: 50;
+  float: left;
+  margin-left: -100px;
+}
+
+
+#form_sign_up .box_sign_up .box .box_left .sub_title_3{
+  width: 610px;
+  float: left;
+  height: 20px;
+
+}
+#form_sign_up .box_sign_up .box .box_left .line_1{
+  width: 610px;
+  float: left;
+  height: 20px;
+  background: url('../../../includes/images/icon/bg_form_sign_up.png');
+
+}
+#form_sign_up .box_sign_up .box .box_left .sub_title_3 .left{
+  width: 570px;
+  float: left;
+  height: 20px;
+  background: #FFF;  
+}
+#form_sign_up .box_sign_up .box .box_left .sub_title_3 .right{
+  width: 39px;
+  float: left;
+  height: 20px;
+  background: url('../../../includes/images/icon/image_blue_bottom_from_sign_up.png'); 
+}
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up{
+  width: 570px;
+  float: left;
+  height:100px;
+  background: #FFF;
+  
+}
+          /*custom nimbel style btn Đăng ký */
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up #home-section-projects{
+    float: right;
+    margin-right: 300px;
+    
+}
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up #home-section-projects .more-info{
+    border: 0px;
+    position: absolute;
+}
+        /*end custom nimbel style btn Đăng ký*/
+        
+        
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up a{
+  text-decoration: none;  
+}
+
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up .btn_sign_up{
+    width: 200px;
+    float: right;
+    /*margin-right: 20px;*/
+    height: 70px;
+    background: url('../../../includes/images/icon/bg_form_sign_up.png');
+    border-radius: 10px;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up .btn_sign_up .image{
+   width: 50px;
+   height: 40px;
+   background: url('../../../includes/images/icon/arrow_sign_up.png');
+   float: left;
+   margin-top: 15px;
+   background-position: center;
+   background-repeat: no-repeat;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up .btn_sign_up .text{
+    margin-top: 15px;
+    width: 150px;
+    margin-left: 40px;
+}
+
+#form_sign_up .box_sign_up .box .box_left .box_btn_sign_up .btn_sign_up .text span{
+    color: #FFF;
+    font-size: 25px;
+    font-size-adjust: 0.52;
+    font-weight: bold;
+  
+}
+
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up{
+  width: 570px;
+  float: left;
+  height:100px;
+  background: url('../../../includes/images/icon/bg_form_sign_up.png');
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up .content_text{
+  width: 570px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up .content_text span{
+  color: #FFF;
+  font-size: 16px;
+  font-size-adjust: 0.51;
+  
+}
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up .content_text span a{
+  color: #FFF;
+  text-decoration: none;
+  font-size: 16px;
+  font-size-adjust: 0.51;
+}
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up .content_text span a:hover{
+  color: #D0D0D0;
+}
+#form_sign_up .box_sign_up .box .box_left .footer_sign_up .footer_text{
+  color: #FFF;
+  font-size: 18px;
+  font-size-adjust: 0.51;
+  margin-top: 25px;
+  float: right;
+  margin-right: 25px;
+}
+
+  /*box right*/
+#form_sign_up .box_sign_up .box .box_right{
+  width: 414px;
+  float: left;
+  height: auto;
+  
+  height: 800px;
+ /*background: #98CB00;*/
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom{
+  width: 400px;
+  float: right;
+  height: auto;
+  margin-top: 121px;
+  height: 600px;
+  /*background: #D0D0D0;*/
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom .title{
+  width: 370px;
+  height: 50px;
+  background: url('../../../includes/images/icon/bg_form_sign_up.png');
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  -moz-border-top-left-radius: 10px;
+  -moz-border-top-right-radius: 10px;
+  text-align: center;
+  float: left;
+  
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom .title .image{
+  position: absolute;
+  height: 90px;
+  width:90px;
+  margin-left:310px;
+  margin-top: -88px;
+  background: url('../../../includes/images/introduce/icon_hot.png');
+  
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom .title .text_center{
+ padding-top: 10px;
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom .title .text_center span{
+ color: #FFF;
+ font-size: 20px;
+ font-weight: bold;
+ margin-top: 10px;
+  
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul{
+ float: left;
+ background: #eee;
+ width: 370px;
+ height: 550px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+ -moz-border-radius-bottomleft: 10px;
+ -moz-border-radius-bottomright: 10px;
+ list-style: none;
+  
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul li{
+ width: 370px;
+ height: auto;
+ margin-top: 15px; 
+ background: #FFF;
+ float: left;
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul li .image{
+  width: 160px;
+  height: auto;
+  float: left;
+  margin-left: 15px; 
+  
+  /*background: #98CB00;*/
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul li .image .image_detail{
+  margin-top: 10px;
+  width: 150px;
+  height: 100px;
+ /* background: #eee;*/
+  background-position: center;
+  display: block;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul li .detail_content{
+  margin-top: 10px;
+  width: 180px;
+  height: auto;
+  float: left;
+  text-align: left;
+  /*background: #e10000;*/
+}
+#form_sign_up .box_sign_up .box .box_right .box_right_custom ul li .detail_content .detail_content_text span{
+  color: #3276b1;
+  font-size: 16px;
+  font-weight: bold;
+  font-size-adjust: 0.53;
+  /*background: #e10000;*/
+}

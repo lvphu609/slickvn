@@ -1,0 +1,110 @@
+#tab{
+    font-family: "arial,sans-serif" !important;
+}
+.error{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+.tabs > table{
+    border: 1px solid #ffcc00;
+}
+.tabs table tr{
+    cursor: default;
+}
+.tabs table thead{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ffcc00;
+}
+.tabs table img{
+    width: 100px;
+    height: 90px;
+}
+.tabs table tbody tr{
+    height: 25px;
+}
+.tabs table tbody tr:nth-child(even){
+    background-color: #FAEDC8;
+}
+.food_default{
+    cursor: pointer;
+}
+.tabs table tbody tr:hover{
+    color: #FA9C20;
+}
+.tabs table span:hover{
+    border: 1px #FCBF05 solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.tabs table span:active{
+    border: 1px #F7DC92 solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a.icon:hover{
+    border: 1px #FCBF05 solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+a.icon:active{
+    border: 1px #F7DC92 solid;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.ui-icon{
+    display: inline-block !important;
+}
+#panel_upload_food{
+    width: 600px;
+    margin: auto;
+}
+#panel_upload_food fieldset{
+    width: 550px;
+    border-radius: 10px;
+}
+#panel_upload_food fieldset legend{
+    color: #FA9C20;
+    font-size: 20px;
+}
+#panel_upload_food label{
+    font-size: 15px;
+    font-weight: bold;
+    color: #965802;
+}
+.no_border{
+    border: none !important;
+}
+.no_border tr:hover{
+    color: #000 !important;
+}
+#btn_control_upload_frm{
+    cursor: pointer;
+}
+.control_panel{
+    position: absolute;
+    top: 45%;
+    right: 5px;
+    width: 100%;
+}
+.img_view{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+#box_food_image{
+    display: inline-block;
+}
+#box_food_image img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+#box_food_image img:hover{
+    border: 1px solid #FA9C20;
+    border-radius: 3px;
+    cursor: pointer;
+}

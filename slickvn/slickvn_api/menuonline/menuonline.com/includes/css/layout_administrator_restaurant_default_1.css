@@ -1,0 +1,134 @@
+::-webkit-input-placeholder { font-style: italic; }
+::-moz-placeholder { font-style: italic; } /* firefox 19+ */
+:-ms-input-placeholder { font-style: italic; } /* ie */
+input:-moz-placeholder { font-style: italic; }
+body{
+    margin: 0px;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px 1px #888888;
+    z-index: 999;
+}
+#header_content{
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 100px;
+    margin: auto;
+}
+#header_content table{
+    position: relative;
+    top: 5px;
+    width: 550px;
+    height: 80px;
+}
+#header_content a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    box-shadow: 0px 0px 5px 0px #FCBF05;
+    font-size: 16px;
+    font-weight: bold;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #965802;
+    background-color: #FCBF05;
+    box-shadow: 0px 0px 5px 0px #FCBF05;
+}
+#header_content a:hover{
+    border: 2px solid #965802;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 2px #FA9C20 inset;
+}
+#header_content a:active{
+    border: 2px solid #FCBF05;
+}
+.curr_page{
+    border: 2px solid #965802 !important;
+    box-shadow: 0px 0px 35px 2px #ff3333 inset !important;
+}
+#nav_bar{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: #FCBF05;
+    z-index: 9999;
+}
+#nav_title{
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    width: 500px;
+    height: 100%;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 1px #fff;
+    color: blue;
+    cursor: default;
+}
+#nav_login{
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    line-height: 40px;
+    min-width: 180px;
+    height: 100%;
+    text-align: right;
+    padding-left: 10px;
+}
+#nav_login a{
+    text-decoration: none;
+    color: blue;
+}
+#nav_login a:hover{
+    text-decoration: none;
+    color: white;
+}
+#nav_login img{
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    width: 20px;
+    height: 25px;
+}
+#nav_login span{
+    margin: 0px;
+    padding: 0px 15px 0px 15px;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    text-shadow: 0px 1px #fff;
+    color: blue;
+}
+#nav_login span:hover{
+    color: #fbf9ee;
+    text-shadow: 0px 0px 10px #000 !important;
+    cursor: pointer;
+}
+
+#content{
+    position: relative;
+    width: 1000px;
+    min-height: 600px;
+    margin: auto;
+}
+.content_title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #965802;
+    text-align: center;
+}
+
+#footer{
+    position: relative; 
+    top: 50px;
+    width: 100%;
+    min-height: 100px;
+    background-color: #FCAA38;
+}

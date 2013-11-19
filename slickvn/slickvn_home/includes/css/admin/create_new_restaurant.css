@@ -1,0 +1,275 @@
+#create_new_restaurant{
+  width: 85%;
+  height: auto;
+  float: left;
+  /*background-color: #00620C;*/
+}
+#create_new_restaurant #content_create_new_restaurant{
+  margin-top: 100px;
+  width: 93%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+   
+ /* background: #0066FF;*/
+  
+}
+#create_new_restaurant #content_create_new_restaurant .create_new_restaurant_title{
+ width: 100%;
+ height: auto;
+ 
+/* background: #6c7670;*/
+}
+
+#create_new_restaurant #content_create_new_restaurant .create_new_restaurant_title span{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif, Arial;
+}
+#create_new_restaurant #content_create_new_restaurant .line_title{
+  width: 100%;
+  height: 1px;
+  float: left;
+  background: #d4d4d4;
+}
+#create_new_restaurant #content_create_new_restaurant .restaurant_info_title{
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+#create_new_restaurant #content_create_new_restaurant .restaurant_info_title span{
+   color: #999;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic; 
+  font-family: sans-serif, Arial;
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input{
+  width: 100%;
+  margin-top: 20px;
+  height: auto;
+  
+  /*temp
+  height: 500px;
+  background: #d4d4d4;*/
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .image_profile{
+  width: 20%;
+  height: 300px;
+  float: left;
+  /*temp
+  background:#00BDFF; */
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .name_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#468847;*/ 
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .job_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#465662; */
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .phone_number_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#ff0; */
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .company_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#474747;*/
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .email_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#ff0;*/
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .facebock_url_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#468847;*/
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .code_restaurant_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#0066FF;*/
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .password_profile{
+  width: 24.66%;
+  height: 100px;
+  float: left;
+  margin-left: 2%;
+  /*temp
+  background:#3a87ad;*/
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .line_title{
+  width: 100%;
+  height: 1px;
+  float: left;
+  background: #d4d4d4;
+  margin-top: 10px;
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .introduce_restaurant_profile{
+  width: 100%;
+  height: auto;
+  float: left;
+  margin-top: 15px;
+  
+  /*background: #d4d4d4;*/
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel{
+  width: 100%;
+  height: 40px;
+  float: left;
+  margin-top: 15px;
+  
+  /*background: #d4d4d4;*/
+}
+
+
+
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_save{
+  width: 10%;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
+  
+  background-image: -o-linear-gradient(bottom, #6ED60D 0%, #4D7D12 84%);
+  background-image: -moz-linear-gradient(bottom, #6ED60D 0%, #4D7D12 84%);
+  background-image: -webkit-linear-gradient(bottom, #6ED60D 0%, #4D7D12 84%);
+  background-image: -ms-linear-gradient(bottom, #6ED60D 0%, #4D7D12 84%);
+  background-image: linear-gradient(to bottom, #6ED60D 0%, #4D7D12 84%);
+
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_save:hover{
+  width: 10%;
+  height: 40px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-image: -o-linear-gradient(bottom, #509C03 0%, #73CF0B 100%);
+  background-image: -moz-linear-gradient(bottom, #509C03 0%, #73CF0B 100%);
+  background-image: -webkit-linear-gradient(bottom, #509C03 0%, #73CF0B 100%);
+  background-image: -ms-linear-gradient(bottom, #509C03 0%, #73CF0B 100%);
+  background-image: linear-gradient(to bottom, #509C03 0%, #73CF0B 100%);
+
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_save lable{
+  color: #FFF;
+  font-size: 23px;
+  font-family: sans-serif;
+
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_save .center_text{
+  margin-top: 5px;
+
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_cancel{
+  width: 10%;
+  height: 40px;
+  float: left;
+  margin-left: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  text-align: center;
+  
+  background-image: -o-linear-gradient(bottom, #DEDEDE 0%, #292929 100%);
+  background-image: -moz-linear-gradient(bottom, #DEDEDE 0%, #292929 100%);
+  background-image: -webkit-linear-gradient(bottom, #DEDEDE 0%, #292929 100%);
+  background-image: -ms-linear-gradient(bottom, #DEDEDE 0%, #292929 100%);
+  background-image: linear-gradient(to bottom, #DEDEDE 0%, #292929 100%);
+  
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_cancel:hover{
+  width: 10%;
+  height: 40px;
+  float: left;
+  margin-left: 5px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-image: -o-linear-gradient(bottom, #595959 0%, #D1D1D1 100%);
+  background-image: -moz-linear-gradient(bottom, #595959 0%, #D1D1D1 100%);
+  background-image: -webkit-linear-gradient(bottom, #595959 0%, #D1D1D1 100%);
+  background-image: -ms-linear-gradient(bottom, #595959 0%, #D1D1D1 100%);
+  background-image: linear-gradient(to bottom, #595959 0%, #D1D1D1 100%);
+  
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_cancel lable{
+  color: #FFF;
+  font-size: 23px;
+  font-family: sans-serif;
+
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .btn_save_cancel .btn_cancel .center_text{
+  margin-top: 5px;
+
+}
+#create_new_restaurant #content_create_new_restaurant .box_input span{
+  color: #7e7e7e;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+#create_new_restaurant #content_create_new_restaurant .box_input .input_text{
+  width: 100%;
+  height: 50px;
+  
+  background: #fff;
+  border: 1px solid #5bc0de;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: #595959;
+  margin: 0;
+  outline: 0;
+  padding: 5px 0 6px 8px;
+  -webkit-appearance: none;
+}
+#create_new_restaurant #content_create_new_restaurant .box_input .input_textarea{
+  width: 100%;
+  height: 150px;
+   resize: none; 
+  background: #fff;
+  border: 1px solid #5bc0de;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: #595959;
+  margin: 0;
+  outline: 0;
+  padding: 5px 0 6px 8px;
+  -webkit-appearance: none;
+}
+

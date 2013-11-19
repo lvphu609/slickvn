@@ -1,0 +1,88 @@
+#menu_main{
+  margin: 0 auto;
+  padding: 0;
+  width: 15%;
+ /* min-height: 50px;*/
+  height: 100%;
+  background: url('../../../includes/images/icon/banner_red.png');
+  float: left;
+  /*min-width: 200px;
+  height: 100%;*/
+}
+
+#menu_main .box_menu{
+   margin-top: 150px;
+  width: 100%;
+  height: 80%;
+ /* min-width: 200px;*/
+    float: left;
+  /*temp
+  
+  background: #00BDFF;
+  */
+}
+#menu_main .box_menu ul{
+  width: 100%;
+  height: 80%;
+  float: left;
+  /*temp
+  background: #eee;*/
+}
+#menu_main .box_menu ul li{
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-top: 10px;
+  
+  /*temp
+  background: #00BDFF;*/
+}
+#menu_main .box_menu ul li .box_text_detail{
+  width: 90%;
+  height: 50px;
+  float: right;
+  
+  /*temp
+  background:#005702;*/
+}
+#menu_main .box_menu ul li .box_text_detail a{
+  text-decoration: none;
+}
+#menu_main .box_menu ul li .box_text_detail a:hover .text span{
+  color: #FFA54E;
+}
+
+#menu_main .box_menu ul li .box_text_detail .text {
+  width: 85%;
+  height: 50px;
+  float: left;
+  
+  /*temp
+  background:#00BDFF;*/
+}
+#menu_main .box_menu ul li .box_text_detail .text span {
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  
+  /*temp
+  background:#FFF;*/
+}
+#menu_main .box_menu ul li .box_text_detail .text .align_center {
+  margin-top: 10px;
+  
+  /*temp
+  background:#FFF;*/
+}
+#menu_main .box_menu ul li .box_text_detail .image {
+  width: 15%;
+  height: 50px;
+  float: left;
+  
+  /*temp*/
+  background:url('../../../includes/images/icon/icon_chosed.png');
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+

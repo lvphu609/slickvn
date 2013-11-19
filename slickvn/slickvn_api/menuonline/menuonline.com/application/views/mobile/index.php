@@ -1,0 +1,1 @@
+<center><img src="<?php echo $url; ?>includes/img/bg_index_mobile.png" width="400" height="600"></center>

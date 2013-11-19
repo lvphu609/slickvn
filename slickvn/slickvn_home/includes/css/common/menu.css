@@ -1,0 +1,405 @@
+/*
+  format file menu.php in folder views/menu/menu.php
+*/
+
+/*
+|--------------------------------------------------------------------------
+| MENU CUSTOM   id="menu_custom"
+|--------------------------------------------------------------------------
+|file templates/menu/menu.php
+| 
+|
+*/
+#menu_custom{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png');  
+  height: 103px;
+}
+#menu_custom .menu_main{
+  height: 103px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+ /* background: #00620C;*/
+  background: url('../../../includes/images/icon/slidebg.png');
+}
+#menu_custom .menu_main .menu_top{
+  height: 42px;
+ /*background: #00620C;*/
+ background: url('../../../includes/images/icon/slidebg.png');
+  width: 1024px;
+ /* height: auto;*/
+  margin: 0 auto;
+  padding: 0;
+  z-index: 100;
+  
+}
+#menu_custom .menu_main .menu_top .search{
+  height: 42px;
+  width: 779px;
+ /* background: #999;*/
+  float: left;
+}
+
+#menu_custom .menu_main .menu_top .search .form_search{
+  height: 25px;
+  width: 779px;
+  margin-top: 5px;
+ /* background: #0134c5;*/
+  float: left;
+  float: left;
+  
+}
+#menu_custom .menu_main .menu_top .search .form_search .form_search_input{
+  width: 690px;
+  background:#fff;
+  border-radius: 5px;
+  float: left;
+}
+#menu_custom .menu_main .menu_top .search .form_search .form_search_input .input_search{
+  width: 590px;
+  height: 28px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color:transparent;
+  border: 0px solid ;
+  font-style: italic;
+  
+  box-sizing: border-box;
+  color: #7e7e7e;
+  height: 30px;
+  margin: 0;
+  outline: 0;
+  padding: 5px 0 6px 8px;
+  position: relative;
+  -webkit-appearance: none;
+  float: left;
+}
+
+#menu_custom .menu_main .menu_top .search .form_search .form_search_input .lable_search{
+  float: right;
+  /*background: #eeeeee;*/
+  border-radius: 5px;
+  width: 80px;
+  margin-top:4px;
+  text-align: center;
+  color: #D0D0D0;
+  margin-right: 10px;
+}
+#menu_custom .menu_main .menu_top .search .form_search .form_search_input .lable_search .select_custom{
+  float: right;
+  /*background: #eeeeee;*/
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  background: #D0D0D0;
+  height: 23px;
+  border: 0px solid;
+  font-size: 10px;
+  box-sizing: border-box;
+  color: #7e7e7e;
+  margin: 0;
+  outline: 0;
+  padding: 5px 0 6px 8px;
+  position: relative;
+  -webkit-appearance: none;
+  text-align: center;
+}
+           /*custom nimbel css search */
+
+#menu_custom .menu_main .menu_top .search .form_search 
+  #home-section-projects{
+  width: 0px;;
+  height: 0px;
+  float: left;
+  background: #7bae00;
+ 
+}  
+#menu_custom .menu_main .menu_top .search .form_search 
+  #home-section-projects a{
+  width: 80px;
+  height: 28px;
+  float: left;
+  margin-left: 5px;
+  position: absolute;
+ /* background: url('../../includes/images/searchicon.png') #3690c3;*/
+  background-repeat:no-repeat;
+  background-position:center;
+  border: 0px; 
+  background: url('../../../includes/images/icon/btn_search.png');
+  margin-top: 2px;
+}  
+#menu_custom .menu_main .menu_top .search .form_search 
+  #home-section-projects a:active{
+  background: url('../../../includes/images/icon/btn_search_active.png');
+}  
+
+          /*end custom nimbel css search */
+
+
+
+/*oauth login*/
+#menu_custom .menu_main .menu_top .oauth_login{
+  height: 42px;
+  width: 80px;
+ /* background: #0134c5;*/
+  float: left;
+}
+#menu_custom .menu_main .menu_top .oauth_login ul{
+  list-style: none;
+  margin-top: 13px;
+  margin-left: 11px;
+}
+#menu_custom .menu_main .menu_top .oauth_login .icon_oauth_facebook{
+  background: url('../../../includes/images/icon/icon_oauth_facebook.png');
+  height: 16px;
+  width: 16px;
+  float: left;
+}
+#menu_custom .menu_main .menu_top .oauth_login .icon_oauth_twiter{
+  background: url('../../../includes/images/icon/icon_oauth_twiter.png');
+  height: 16px;
+  width: 16px;
+  float: left;
+  margin-left: 5px;
+}
+#menu_custom .menu_main .menu_top .oauth_login .icon_oauth_google{
+  background: url('../../../includes/images/icon/icon_oauth_google.png');
+  height: 16px;
+  width: 16px;
+  float: left;
+  margin-left: 5px;
+}
+
+/* login and register*/
+#menu_custom .menu_main .menu_top .login_register{
+  height: 42px;
+  width: 165px;
+  float: left;
+}
+
+#menu_custom .menu_main .menu_top .login_register ul{
+  list-style: none;
+  margin-top: 7px;
+  
+}
+/*btn_login---*/
+#menu_custom .menu_main .menu_top .login_register ul .btn_signup{
+  background: url('../../../includes/images/icon/bg_btn_login_register.png');
+  width: 80px;
+  height: 28px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-position: center;
+  margin-right: 1px;
+  /*border: 2px solid #000000;*/
+}
+#menu_custom .menu_main .menu_top .login_register ul .btn_signup:hover{
+  border: 1px solid #D0D0D0;
+ /* box-shadow: 2px;*/
+ width: 78px;
+ height: 26px;
+}
+
+
+#menu_custom .menu_main .menu_top .login_register ul .btn_signup .image_signup{
+  background: url(../../../includes/images/icon/image_signup.png);
+  width: 78px;
+  height: 26px;
+  /*position: absolute;*/
+  background-position: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#menu_custom .menu_main .menu_top .login_register ul .btn_signup .image_signup:active{
+  background: url(../../../includes/images/icon/image_signup_hover.png);
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  background-position: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/*btn_register---*/
+#menu_custom .menu_main .menu_top .login_register ul .btn_login{
+   background: url(../../../includes/images/icon/bg_btn_login_register.png);
+  width: 80px;
+  height: 28px;
+  float: left;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  background-position: center;
+  margin-left: 1px;
+}
+#menu_custom .menu_main .menu_top .login_register ul .btn_login:hover{
+  border: 1px solid #D0D0D0;
+  width: 78px;
+ height: 26px;
+}
+
+
+
+#menu_custom .menu_main .menu_top .login_register ul .btn_login .image_login{
+  background: url(../../../includes/images/icon/image_login.png);
+  width: 78px;
+  height: 26px;
+/*  position: absolute;*/
+  background-position: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+#menu_custom .menu_main .menu_top .login_register ul .btn_login .image_login:active{
+  background: url(../../../includes/images/icon/image_login_hover.png);
+  width: 78px;
+  height: 26px;
+  position: absolute;
+  background-position: center;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+/*menu mid-----*/
+
+#menu_custom .menu_main .menu_mid{
+  height: 25px;
+  background: url(../../../includes/images/icon/banner_red.png);
+  float: left;
+  width: 100%;
+ 
+}
+#menu_custom .menu_main .menu_mid .menu_mid_custom_center{
+  width: 1024px;
+  height: 25px;
+  margin: 0 auto;
+  background: url(../../../includes/images/icon/banner_red.png);
+  
+}
+#menu_custom .menu_main .menu_mid .menu_mid_title{
+  width: 115px;
+  height: 25px;
+  background: url(../../../includes/images/icon/title_menu_mid.png);
+  float: left;
+  margin-left: 5px;
+}
+#menu_custom .menu_main .menu_mid ul{
+  list-style: none;
+  float: left;
+ /* margin-top: 2.5px;*/
+  margin-left: -20px;
+}
+#menu_custom .menu_main .menu_mid ul li{
+  float: left;
+ /* margin-left: 30px;*/
+  /*margin-top: 2.5px;*/
+ 
+}
+#menu_custom .menu_main .menu_mid ul li:hover{
+     background: #de3a64;
+     height: 24.5px;
+ 
+}
+#menu_custom .menu_main .menu_mid ul li a{
+  color: #fff;
+  font-size: 15px;
+  font-size-adjust: 0.53;
+  font-weight: bold;
+  text-decoration: none;
+} 
+
+#menu_custom .menu_main .menu_mid ul li a .btn_menu_mid{
+ /* background: #7bae00;*/
+  height: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 2.5px;
+
+}
+
+#menu_custom .menu_main .menu_mid ul li a .btn_menu_mid span{
+ margin-left: 10px;
+ margin-right: 10px;
+
+  
+}
+#menu_custom .menu_main .menu_mid ul li a:hover{
+   text-decoration: none;
+   
+} 
+/*menu bottom*/
+#menu_custom .menu_main .menu_bottom{
+  margin-top: 1px;
+  height: 35px;
+  background: url(../../../includes/images/icon/menu_bottom_background.png);
+  float: left;
+  width: 100%;
+  
+}
+
+#menu_custom .menu_main .menu_bottom .menu_bottom_title{
+  width: 105px;
+  height: 35px;
+  background: url(../../../includes/images/icon/title_menu_bottom_.png) ;
+  float: left;
+  margin-left: 5px;
+}
+#menu_custom .menu_main .menu_bottom .background{
+  background: url(../../../includes/images/icon/background_menu_bottom_link_a.png);
+  border-radius: 5px;
+  width: auto;
+  height:25px;
+  float: left;
+}
+#menu_custom .menu_main .menu_bottom .background:hover{
+  background: url(../../../includes/images/icon/banner_red.png);
+  
+}
+#menu_custom .menu_main .menu_bottom .background .text_align_center{
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  height: 20px;
+  width: auto;
+  /*background: #98CB00;*/
+}
+#menu_custom .menu_main .menu_bottom .menu_bottom_custom_center{
+  width: 1024px;
+  height: 35px;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png');  
+}
+#menu_custom .menu_main .menu_bottom .menu_bottom_custom_center .menu_background{
+  width: 1024px;
+  height: 35px;
+  margin: 0 auto;
+  background: url(../../../includes/images/icon/menu_bottom_background.png);
+}
+
+#menu_custom .menu_main .menu_bottom ul{
+  list-style: none;
+  float: left;
+  height: 35px;
+  /*margin-left: 10px;*/
+}
+#menu_custom .menu_main .menu_bottom ul li{
+  float: left;
+  margin-left: 11px;
+  float: left;
+  margin-top: 5px;
+  
+}
+#menu_custom .menu_main .menu_bottom ul li a{
+  color: #fff;
+  font-size: 14px; 
+  text-decoration: none;
+  
+} 
+#menu_custom .menu_main .menu_bottom ul li a:hover{
+   text-decoration: none;
+   
+}

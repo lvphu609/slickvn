@@ -1,0 +1,14 @@
+#post{
+  margin: 0 auto;
+  padding: 0;
+ 
+  
+  
+}
+#post .box_post{
+  margin: 0 auto;
+  padding: 0;
+ width: 1024px;
+  height: 100px;
+  background: #09F;
+}

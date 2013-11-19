@@ -1,0 +1,20 @@
+/*
+|--------------------------------------------------------------------------
+| SLIDE SHOW DETAIL RESTAURANT id="slide_show_detail_restaurant"
+|--------------------------------------------------------------------------
+|file templates/detail_restaurant_slide_show_detail_restaurant.php
+| 
+|
+*/
+
+#detail_restaurant .content_detail_restaurant .slide_show_detail_restaurant{
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0;
+  background: #31b0d5;
+  height: 100px;
+  
+  
+  
+  
+}

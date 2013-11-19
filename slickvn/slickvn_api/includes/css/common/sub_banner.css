@@ -1,0 +1,110 @@
+/*
+|--------------------------------------------------------------------------
+|SUB BANNER  id="sub_banner"   AND SUB BANNER MORE 
+|--------------------------------------------------------------------------
+|file templates/sub_banner_more.php
+|file templates/sub_banner.php
+|
+*/
+#sub_banner{
+ margin-top:10px;
+ margin-bottom:10px;
+ width: 100%;
+ background: #fff;
+ height: auto;
+ float: left;
+   
+}
+#sub_banner .sub_banner_custom_center{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+   
+}
+
+#sub_banner .frame_banner {
+  width: 930px;
+  /*background: #999;*/
+  margin-left: 80px;
+  float: left;
+  margin-top: 25px;
+}
+#sub_banner .frame_banner ul{
+  list-style: none;
+  float: left;
+  
+  
+}
+#sub_banner .frame_banner ul li{
+  float: left;
+  width: 310px;
+}
+
+#sub_banner .frame_banner .box_text_banner {
+  /*background: #eee;*/
+  width: 250px;
+}
+/*sub banner title*/
+#sub_banner .frame_banner .box_text_banner .banner_title {
+  /*width: 270px;*/
+  height: auto;
+  text-align: center;
+}
+#sub_banner .frame_banner .box_text_banner .banner_title a{
+  font-size: 20px;
+  font-weight: bold;
+  font-size-adjust: 0.55;
+  color: #000000;
+  text-decoration: none;
+  
+}
+#sub_banner .frame_banner .box_text_banner .banner_title a:hover{
+  text-decoration: none;
+  color: #000000;
+  
+}
+
+/*sub banner content */
+#sub_banner .frame_banner .box_text_banner .banner_content{
+  margin-top: 10px;
+  /*width: 270px;*/
+  margin-left: 20px;
+  /*background: #003399;*/
+}
+
+                /*custom nimble css*/
+#sub_banner .frame_banner .box_text_banner .banner_content #portfolio_items{  
+ width: 300px;
+ height: 300px;
+ float: left;
+ margin-top: -35px;
+ margin-bottom: -35px;
+}
+#sub_banner .frame_banner .box_text_banner .banner_content #portfolio_items 
+  .portfolio_description .portfolio_info_top .title{   
+  width: 200px;
+  margin-top: -40px;
+  margin-left: 5px;
+}
+#sub_banner .frame_banner .box_text_banner .banner_content #portfolio_items 
+  .portfolio_description .nimble_button_more{   
+ font-size: 13px;
+ color: #000000;
+ margin-left: -15px;
+ 
+}
+                /*end custom nimble css*/
+
+#sub_banner .frame_banner .box_text_banner .banner_button{
+ width: 90px;
+ height: 25px;
+ border:1px solid #D0D0D0; /* background: #003399;*/
+ text-align: center;
+ border-radius: 5px;
+ margin-left: 155px;
+ margin-top: 10px;
+}
+
+#sub_banner .frame_banner .box_text_banner .banner_button span{
+ 
+}

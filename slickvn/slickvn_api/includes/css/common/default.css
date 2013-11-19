@@ -1,0 +1,24 @@
+/*
+  css format page default, you are load this file first
+
+*/
+
+
+
+* { margin:0;
+    padding:0;
+  }
+  
+body {
+  margin:0;
+  padding:0;
+  background:#FFF;
+  font-family:Arial;
+  float: left;
+}
+
+#container_main{
+  margin:0 auto;
+  padding:0;
+  
+}

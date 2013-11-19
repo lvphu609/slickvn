@@ -1,0 +1,275 @@
+
+#result_search{
+   float: left;
+ width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../../includes/images/icon/slidebg.png'); 
+  
+  /*temp*/
+}
+#result_search .box_align_center{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+ 
+  
+  /*temp
+  height: 200px;
+  background: #0066FF;*/
+}
+/*left==================================================*/
+#result_search .box_align_center .box_detail_left{
+  width: 260px;
+  height: auto;
+  float: left;
+  background: #000;
+  opacity: 0.3;
+  /*temp*/
+  height: 382px;
+  
+  
+}
+
+
+
+/*right===============================================================================*/
+#result_search .box_align_center .box_detail_right{
+  width: 754px;
+  height: auto;
+  float: left;
+  /*background: #FFF;*/
+  margin-bottom: 10px;
+  margin-left: 10px;
+  /*temp
+  height: 500px;
+  background: #0066FF;*/
+  
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search{
+  width: 754px;
+  height: auto;
+  float: left;
+ /* background: #FFF;*/
+  /*temp
+  height: 500px;
+  background: #0066FF;*/
+  
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search ul{
+  width: 754px;
+  height: auto;
+  float: left;
+ /*background: #FFF;*/
+  list-style: none;
+  /*temp
+  height: 500px;
+  background: #0066FF;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li{
+  width: 754px;
+  height: auto;
+  float: left;
+  background: #eee;
+  margin-top: 10px;
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li{
+  width: 754px;
+  height: auto;
+  float: left;
+  background: #eee;
+  margin-top: 5px;
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .left{
+  width: 210px;
+  height: 150px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .left img{
+  width: 210px;
+  height: 150px;
+  /*temp
+  height: 100px;*/
+  
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid{
+ /* width: 400px;*/
+  width: 370px;
+  height: 150px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  /*temp
+  height: 100px;
+   background: #005702;
+  */
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .title{
+  width: 400px;
+  float: left;
+  height: auto;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .title a{
+  color: #e10000;
+  text-decoration: none;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .title a:hover span{
+  color: #FA9C20;
+  text-decoration: none;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .title span{
+  color: #e10000;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 16px;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .address{
+  width: 400px;
+  float: left;
+  height: auto;
+  margin-top: 5px;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .address span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .content_introduce{
+  width: 400px;
+  float: left;
+  height: auto;
+  margin-top: 5px;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .content_introduce
+.text_content_introduce
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #333;
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search ul li .mid .content_introduce
+.text_content_introduce span
+{
+  font-weight:bold;
+  color:#000;
+}
+
+
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right{
+  width: 122px;
+  height: 150px;
+  float: right;
+  margin: 5px 5px 5px 5px;
+  border: 1px solid #DDD;
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.point{
+  width: 112px;
+  height: 70px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.point span{
+  
+  font-size: 50px;
+  font-weight: bold;
+  color: #419641;
+  
+  /*temp
+  height: 100px;*/
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.vote{
+  width: 112px;
+  height: 15px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  
+  
+}
+ #result_search .box_align_center .box_detail_right .box_results_search ul li .right
+  .rating{
+  width: auto;
+  height: 15px;
+  float: left;
+  margin-top: 3px;
+  margin-left: 25px;
+  
+  /*temp
+   width: 100px;;
+  background: #DDD;*/
+}
+
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.rating .star_active{
+  float: left;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background: url(../../../../includes/images/icon/ratestar_selected.png);
+  background-size: 12px;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.rating .star_no_active{
+  float: left;
+  width: 12px;
+  height: 12px;
+  overflow: hidden;
+  text-indent: -999em;
+  cursor: pointer;
+  background:url(../../../../includes/images/icon/redbutton_icon_1.png);
+  background-size: 20px 20px;;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.comment_view{
+  width: 112px;
+  margin: 5px 5px 5px 5px;
+  text-align: center;
+  
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.comment_view p{
+  color: #000;
+  font-size: 12px;
+  
+}
+#result_search .box_align_center .box_detail_right .box_results_search ul li .right
+.comment_view span{
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  
+}

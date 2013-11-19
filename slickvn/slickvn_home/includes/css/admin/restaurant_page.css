@@ -1,0 +1,191 @@
+#restaurant_page{
+  width: 85%;
+  height: auto;
+  float: left;
+  /*background-color: #00620C;*/
+}
+#restaurant_page #content_restaurant_page{
+  margin-top: 100px;
+  width: 93%;
+  height: auto;
+  float: left;
+  margin-left: 5%;
+  margin-right: 2%;
+   
+ /* background: #0066FF;*/
+  
+}
+#restaurant_page #content_restaurant_page .restaurant_page_title{
+ width: 100%;
+ height: auto;
+ 
+/* background: #6c7670;*/
+}
+
+#restaurant_page #content_restaurant_page .restaurant_page_title span{
+  color: #000;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif, Arial;
+}
+#restaurant_page #content_restaurant_page .line_title{
+  width: 100%;
+  height: 1px;
+  float: left;
+  background: #d4d4d4;
+}
+
+#restaurant_page #content_restaurant_page .create_new_restaurant{
+  width: 190px;
+  height: auto;
+  
+  /*background: #00BDFF;*/
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant a{
+  text-decoration: none;
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant a:hover .btn_create_new_restaurant .middle span{
+  color: #FFA54E;
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant{
+  width: 190px;
+  height: 35px;
+  
+ /* background: #d4d4d4;*/
+}
+
+
+
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant .left{
+  width: 5px;
+  height: 35px;
+  float: left;
+  background: url('../../../includes/images/icon/greenbutton_left.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 5px 35px;
+  
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant .middle{
+  width: 180px;
+  height: 35px;
+  float: left;
+  background: url('../../../includes/images/icon/greenbutton_middle.png');
+  
+  text-align: center;
+  background-size: 5px 35px;
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant .middle span{
+  color: #FFF;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant .middle
+.text_center{
+  height: 10px;
+  width: 180px;
+  margin-top: 6px;
+  float: left;
+}
+#restaurant_page #content_restaurant_page .create_new_restaurant .btn_create_new_restaurant .right{
+  width: 5px;
+  height: 35px;
+  float: left;
+  background: url('../../../includes/images/icon/greenbutton_right.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 5px 35px;
+  
+}
+
+/*member list*/
+#restaurant_page #content_restaurant_page .restaurant_list{
+ width: 100%;
+ height: auto;
+ margin-top: 5%;
+ 
+ /*height:100px; 
+ background:#FFA54E; */
+}
+
+#restaurant_page #content_restaurant_page .restaurant_list .box_info{
+ width: 100%;
+ height: auto;
+ list-style: none;
+ float: left;
+ margin-top: 20px;;
+ 
+ /*height:100px; 
+ background:#FFA54E;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li{
+ height: auto;
+ float: left;
+}
+
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.stt_restaurant{
+ width: 5%;
+ /*temp
+ background: #00AAE7;*/
+}
+
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.code_restaurant{
+ width: 9%;
+ margin-left: 1%;
+ /*temp
+ background: #d4d4d4;*/
+}
+
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.name_restaurant{
+ width: 9%;
+ margin-left: 1%;
+ /*temp
+ background: #47a447;*/
+}
+
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.job_restaurant{
+ width: 14%;
+ margin-left: 1%;
+ /*temp
+ background: #5bc0de;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.email_restaurant{
+ width: 19%;
+ margin-left: 1%;
+ /*temp
+ background: #78A000;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.phonenumber_restaurant{
+ width: 14%;
+ margin-left: 1%;
+ /*temp
+ background: #d5d59d;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.company{
+ width: 14%;
+ margin-left: 1%;
+ /*temp
+ background: #f8efc0;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.update_delete{
+ width: 9%;
+ margin-left: 1%;
+ /*temp
+ background: #A9D866;*/
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.update_delete .edit{
+ width: 40px;
+ height: 30px;
+ float: left;
+ background: url('../../../includes/images/icon/view_icn.png');
+ background-repeat: no-repeat;
+ background-position: center;
+}
+#restaurant_page #content_restaurant_page .restaurant_list .box_info li.update_delete .delete{
+ width: 40px;
+ height: 30px;
+ float: left;
+ background: url('../../../includes/images/icon/delete_member.png');
+ background-repeat: no-repeat;
+ background-position: center;
+}

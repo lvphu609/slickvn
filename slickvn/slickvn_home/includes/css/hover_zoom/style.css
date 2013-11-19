@@ -1,0 +1,30 @@
+
+
+/*Grid*/
+/*ul.thumb_grid li img.hover{box-shadow:0 0 10px #000;}*/
+/*ul.thumb_grid .text{height:19px;left:0;position:absolute;top:93px;width:161px;overflow:hidden;text-shadow:1px 1px 1px #000;margin:0;padding:3px 8px 0;}
+ul.thumb_grid .info{background:#333;opacity:0.5;filter:alpha(Opacity=50);position:absolute;width:175px;top:88px;left:0;height:30px;cursor:pointer;border-radius:0 0 5px 5px;margin:0;}
+ul.thumb_grid li a{color:#FFF;text-decoration:none;}*/
+
+ul.thumb_grid li .box_info_authentication_hide {
+width: 170px;
+height: auto;
+background:#478500;
+color: #FFF;
+
+text-align: center;
+margin-left: 10px;
+margin-top: -80px;
+position: inherit;
+box-shadow:0 0 10px #000;
+
+}
+/*List*/
+
+
+
+
+
+
+
+/*Simple*/

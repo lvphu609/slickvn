@@ -1,0 +1,23 @@
+#slide_show{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  float: left;
+  /*temp*/
+  background: url('../../../../includes/images/icon/slidebg.png');
+}
+
+#slide_show .box_slide_show{
+  margin: 0 auto;
+  padding: 0;
+  width: 1024px;
+  height: auto;
+  
+}
+
+
+#slide_show .box_slide_show .detai_slide_show{
+  margin-top: 10px;
+  
+}

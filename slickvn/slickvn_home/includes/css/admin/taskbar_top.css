@@ -1,0 +1,85 @@
+#taskbar_top{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  float: left;
+  min-width:450px;
+  position: absolute;
+  
+}
+#taskbar_top_box{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background: url('../../../includes/images/icon/topbar11__.png');
+  float: left;
+  min-width:450px;
+  
+}
+
+#taskbar_top_shadow{
+
+  width: 100%;
+ /* min-height: 50px;*/
+  background: url('../../../includes/images/icon/topbar_shadow.png');
+  float: left;
+  height: 19px;
+  margin-top: -1px;
+ 
+ }
+#taskbar_top .title_left{
+  float: left;
+  margin-left: 50px;
+  height: auto;
+  
+}
+#taskbar_top .title_left span{
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  font-family: sans-serif, Arial;
+  margin-top: 10px;
+}
+#taskbar_top .title_left span .title_left_text{
+ margin-top: 13px;
+}
+
+
+#taskbar_top .title_right{
+  float: right;
+  margin-right: 50px;
+  height: auto;
+  
+  
+}
+#taskbar_top .title_right span{
+  color: #000;
+  font-size: 18px;
+  font-family: sans-serif, Arial;
+}
+#taskbar_top .title_right span .title_right_text{
+ margin-top: 13px;
+ float: left;
+}
+#taskbar_top .title_right span .title_right_text .hello_user{
+ margin-right: 100px;
+ float: left;
+ margin-left: 20px;
+}
+#taskbar_top .title_right span .title_right_text .hello_user span{
+ color: #00AAE7;
+ 
+}
+
+#taskbar_top .title_right span .title_right_text .logout{
+ float: left;
+ margin-left: 20px;
+}
+#taskbar_top .title_right span .title_right_text .logout a{
+ color: #000;
+}
+#taskbar_top .title_right span .title_right_text .logout a:hover{
+ color: #E13300;
+}

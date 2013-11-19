@@ -1,0 +1,14 @@
+@charset "utf-8";
+.dislay_inline{
+	display:inline !important;
+}
+.table_number{
+	color:#F60 !important;
+}
+.item img{
+	width:70px;
+	height:70px;
+}
+.item{
+	font-style:italic;
+}

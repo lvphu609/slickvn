@@ -1,0 +1,25 @@
+#slideshow{  
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png');  
+  height: 550px;
+  
+  
+}
+/*slide show*/
+#slideshow .slide_show {
+   height: 550px;
+   margin: 0 auto;
+   text-align: center;
+   /*background: url('../../../includes/images/icon/slidebg.png'); */
+}
+#slideshow .slide_show .slide_show_custom_center {
+  width: 1024px;
+  height: 550px;
+  margin: 0 auto;
+  text-align: center;
+  /*background: url('../../../includes/images/icon/slidebg.png');*/
+   
+  
+}

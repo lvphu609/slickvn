@@ -1,0 +1,26 @@
+/*
+|--------------------------------------------------------------------------
+| DETAIL RESTAURANT  id="detail_restaurant"
+|--------------------------------------------------------------------------
+|file templates/detail_restaurant/detail_restaurant.php*
+| 
+|
+*/
+#detail_restaurant{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png');  
+  /*temp*/
+  /*height: 1000px;*/  
+}
+
+#detail_restaurant .content_detail_restaurant{
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+  background: url('../../../includes/images/icon/slidebg.png'); 
+  /*temp*/
+  /*background: #F1F1F1;*/  
+}
+

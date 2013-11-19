@@ -1,0 +1,168 @@
+/*
+|--------------------------------------------------------------------------
+|NHÀ HÀNG  id="restaurant_list"
+|--------------------------------------------------------------------------
+|file templates/content/restaurant_list.php
+| 
+|
+*/
+#restaurant_list{
+ width: 100%;
+ background: #fff;
+ height: auto;
+ float: left;
+}
+#restaurant_list .restaurant_list_title{
+  width: 100%;
+  height: 56px;
+  background: url(../../../includes/images/icon/banner_red.png); 
+}
+#restaurant_list .restaurant_list_title .restaurant_list_title_custom_center{
+  width: 1024px;
+  height: 56;
+  margin: 0 auto;
+  background: url(../../../includes/images/icon/banner_red.png); 
+}
+#restaurant_list .restaurant_list_title .title_left{
+ float:left;
+ background: url(../../../includes/images/icon/restaurant_list_title_left.png);
+  
+ width: 200px;
+ height: 56px;
+}
+#restaurant_list .restaurant_list_title .title_right{
+ background: url(../../../includes/images/icon/bg_blurred_not_active.png);
+ border-radius: 10px;
+ width: 330px;
+ height: 25px;
+ float: right;
+ margin-top: 15px;
+ margin-right: 20px;
+}
+#restaurant_list .restaurant_list_title .title_right ul{
+ list-style: none;
+ float: left;
+ width: 330px;
+ border-radius: 10px;
+}
+#restaurant_list .restaurant_list_title .title_right ul li{
+ border-radius: 10px;
+}
+#restaurant_list .restaurant_list_title .title_right .active_list{
+ background: url(../../../includes/images/icon/bg_blurred_active.png); 
+ height: 25px;
+}
+
+#restaurant_list .restaurant_list_title .title_right ul li{
+ float: left;
+ width: 110px;
+ height: 25px;
+}
+#restaurant_list .restaurant_list_title .title_right ul li a{
+ color: #fff;
+ font: bold;
+ font-size: 15px;
+ text-decoration: none;
+}
+#restaurant_list .restaurant_list_title .title_right ul li a:hover{
+ text-decoration: none;
+ color: #D0D0D0;
+}
+/*left list*/
+#restaurant_list .restaurant_list_title .title_right .left_list .icon_left_list{
+ background: url(../../../includes/images/icon/icon_left_list.png) ;
+ background-size: 20px 15px;
+ width: 20px;
+ height: 15px;
+ margin-top: 3px;
+ margin-left: 5px;
+ float: left;
+ 
+}
+#restaurant_list .restaurant_list_title .title_right .left_list .text_align_center{
+ height: 15px;
+ margin-top: 2px;
+ margin-left: 5px;
+}
+#restaurant_list .restaurant_list_title .title_right .left_list span{
+  margin-left: 5px;
+}
+/*mid list*/
+#restaurant_list .restaurant_list_title .title_right .mid_list .icon_mid_list{
+ background: url(../../../includes/images/icon/icon_mid_list.png) ;
+ background-size: 20px 15px;
+ width: 20px;
+ height: 15px;
+ margin-top: 3px;
+ margin-left: 5px;
+ float: left;
+ 
+}
+#restaurant_list .restaurant_list_title .title_right .mid_list .text_align_center{
+  height: 15px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#restaurant_list .restaurant_list_title .title_right .mid_list span{
+  margin-left: 5px;
+}
+/*right list*/
+#restaurant_list .restaurant_list_title .title_right .right_list .icon_right_list{
+ background: url(../../../includes/images/icon/icon_right_list.png) ;
+ background-size: 20px 15px;
+ width: 20px;
+ height: 15px;
+ margin-top: 4px;
+ margin-left: 5px;
+ float: left;
+ 
+}
+#restaurant_list .restaurant_list_title .title_right .right_list .text_align_center{
+  height: 15px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+#restaurant_list .restaurant_list_title .title_right .right_list span{
+  margin-left: 5px;
+}
+
+/*box restaurant list---------------*/
+#box_restaurant_list{ 
+ width: 100%;
+ background: #fff;
+ height: auto;
+ float: left;
+}
+
+#box_restaurant_list .box_restaurant_title{ 
+ width: 100%;
+ height: 70px;
+ float: left;
+}
+#box_restaurant_list .box_restaurant_title .title .title_custom_center { 
+  width: 1024px;
+  height: auto;
+  margin: 0 auto;
+}
+#box_restaurant_list .box_restaurant_title .title .title_custom_center span{ 
+ width: 100%;
+ float: left;
+ color:#A70000;
+ font-size: 30px;
+ font-weight: bold;
+ font-size-adjust: 0.7;
+ margin-top: 15px;
+}
+#box_restaurant_list .box_restaurant_title .line{ 
+ width: 100%;
+ height: 5px;
+ background: url(../../../includes/images/icon/banner_red.png);
+ margin-top: 5px;
+ float: left;
+}
+#box_restaurant_list .box_restaurant_title .line .line_custom_center{ 
+ width: 1024px;
+ height: 5px;
+ background: url(../../../includes/images/icon/banner_red.png);
+ float: left;
+}
